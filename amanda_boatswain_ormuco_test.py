@@ -91,7 +91,6 @@ This library will be used extensively by many of our services so it needs to mee
 
 As a hint, we are not looking for quantity, but rather quality, maintainability, scalability, testability and a code that you can be proud of.
 When submitting your code add the necessary documentation to explain your overall design and missing functionalities.  Do it to the best of your knowledge.
-Good Luck, you can write it in the language of your choice, name the test using the convention firstname_lastname_test and provide a link in your personal github so we can review the work.
 
 Assumptions for this question:
  - There are no library restrictions """
