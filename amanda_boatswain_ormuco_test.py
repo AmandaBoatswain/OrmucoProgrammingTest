@@ -78,10 +78,7 @@ print("\n")
 
 
 # Question C
-""" At Ormuco, we want to optimize every bits of software we write. Your goal is to
-write a new library that can be integrated to the Ormuco stack. Dealing with
-network issues everyday, latency is our biggest problem.
-Thus, your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration.
+""" Your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration.
 This library will be used extensively by many of our services so it needs to meet the following criteria:
 
     1 - Simplicity. Integration needs to be dead simple.
