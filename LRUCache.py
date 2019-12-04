@@ -17,7 +17,10 @@ end (tail).
 If we reference an item that is in memory, we will need to detach the node from the
 list and then move it to the front of the queue. If it is not in memory, we will add
 it to the front of the list and remove the LRU reference and the end of the
-queue if all nodes in the queue are already occupied. """
+queue if all nodes in the queue are already occupied.
+
+This code is primarily based on the code in this github repository: https://github.com/ncorbuk/Python-LRU-Cache, 
+with some modifications made to add extra functionality."""
 
 # import libraries
 from datetime import datetime
@@ -140,4 +143,6 @@ class LRUCache:
         if elapsed_time > self.time_delta:
             if self.verbose == True:
                 print(f"Warning: Node @ ({node.key}, {node.data}) has expired!")
-        ### NOTE
+                ### NOTE
+                """ Ideally we would add some kind of code to remove the node here, but I unfortunately couldn't get it to work without 
+                breaking the entire list..."""
